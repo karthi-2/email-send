@@ -12,7 +12,7 @@
 
 	$mail->setFrom('sec19cs080@sairamtap.edu.in','deepdrones');
 	$mail->addAddress('karthikeyan01230123@gmail.com');
-	$mail->addReply('sec19cs080@sairamtap.edu.in');
+	$mail->addReplyTo('sec19cs080@sairamtap.edu.in');
 
 	$mail->isHTML(true);
 	$mail->Subject='PHP Mailer Suject';
